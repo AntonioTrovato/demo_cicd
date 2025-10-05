@@ -24,4 +24,10 @@ public class GreeterTest {
         greeter.setName("Bob");
         assertEquals("Bob", greeter.getName());
     }
+    @Test
+    // this method tests the constructor with name parameter
+    void constructor_withName() {
+        Greeter greeter = new Greeter("Charlie");
+        assertEquals("Charlie", greeter.getName());
+    }
 }
