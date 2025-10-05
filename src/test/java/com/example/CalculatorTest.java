@@ -12,6 +12,7 @@ public class CalculatorTest {
     }
     @Test
     void sub_works() {
+        // adding a comment
         assertEquals(1, new Calculator().sub(3,2));
     }
 }
