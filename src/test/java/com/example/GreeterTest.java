@@ -6,13 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GreeterTest {
     @Test
+    // this method tests greeting with a name
     void greet_withName() {
-        // adding comment
         assertEquals("Hello, Alice!", new Greeter().greet("Alice"));
     }
     @Test
+    // this method tests greeting with default name
     void greet_default() {
-        // adding comment
         assertEquals("Hello, world!", new Greeter().greet(""));
     }
 }
