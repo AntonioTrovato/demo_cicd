@@ -7,10 +7,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CalculatorTest {
     @Test
     void add_works() {
+        // adding a comment
         assertEquals(5, new Calculator().add(2,3));
     }
     @Test
     void sub_works() {
+        // adding a comment
         assertEquals(1, new Calculator().sub(3,2));
     }
 }
