@@ -6,13 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
     @Test
+    // this method tests addition
     void add_works() {
-        // adding a comment
         assertEquals(5, new Calculator().add(2,3));
     }
     @Test
+    // this method tests subtraction
     void sub_works() {
-        // adding a comment
         assertEquals(1, new Calculator().sub(3,2));
     }
 }
