@@ -32,7 +32,7 @@ public class Calculator {
         }
         return a / b;
     }
-    // modules method
+    // modulus method
     public int mod(int a, int b) {
         // adding a comment
         return a % b;
