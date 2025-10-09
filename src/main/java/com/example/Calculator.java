@@ -21,4 +21,21 @@ public class Calculator {
         // adding a comment
         return a - b;
     }
+    public int multiply(int a, int b) {
+        // adding a comment
+        return a * b;
+    }
+    public int divide(int a, int b) {
+        // adding a comment
+        if (b == 0) {
+            throw new IllegalArgumentException("Division by zero");
+        }
+        return a / b;
+    }
+    // modulus method
+    public int mod(int a, int b) {
+        // adding a comment
+        return a % b;
+    }
+
 }
