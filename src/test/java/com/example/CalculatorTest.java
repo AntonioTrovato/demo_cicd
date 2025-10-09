@@ -32,4 +32,19 @@ public class CalculatorTest {
     void sub_works() {
         assertEquals(1, new Calculator().sub(3,2));
     }
+    @Test
+    // this method tests multiplication
+    void multiply_works() {
+        assertEquals(6, new Calculator().multiply(2,3));
+    }
+    @Test
+    // this method tests division
+    void divide_works() {
+        assertEquals(2, new Calculator().divide(6,3));
+    }
+    @Test
+    // this method tests modulus
+    void mod_works() {
+        assertEquals(1, new Calculator().mod(7, 3));
+    }
 }
