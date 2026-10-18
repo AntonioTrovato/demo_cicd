@@ -47,4 +47,9 @@ public class CalculatorTest {
     void mod_works() {
         assertEquals(1, new Calculator().mod(7, 3));
     }
+    @Test
+    // this method tests modulus
+    void add_and_multiply_works() {
+        assertEquals(31, new Calculator().add_and_multiply(7, 3));
+    }
 }

@@ -37,5 +37,7 @@ public class Calculator {
         // adding a comment
         return a % b;
     }
-
+    public int add_and_multiply(int a, int b) {
+        return a + b + a * b;
+    }
 }
