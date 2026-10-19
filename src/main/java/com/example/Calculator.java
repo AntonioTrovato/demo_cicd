@@ -40,4 +40,8 @@ public class Calculator {
     public int add_and_multiply(int a, int b) {
         return a + b + a * b;
     }
+
+    public int add_and_sub(int a, int b) {
+        return a+b-a;
+    }
 }

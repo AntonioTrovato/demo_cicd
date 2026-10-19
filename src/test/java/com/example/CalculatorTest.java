@@ -52,4 +52,9 @@ public class CalculatorTest {
     void add_and_multiply_works() {
         assertEquals(31, new Calculator().add_and_multiply(7, 3));
     }
+    @Test
+        // this method tests modulus
+    void add_and_sub_works() {
+        assertEquals(7, new Calculator().add_and_sub(7, 3));
+    }
 }
