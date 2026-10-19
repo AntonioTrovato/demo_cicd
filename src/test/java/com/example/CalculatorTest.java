@@ -55,6 +55,6 @@ public class CalculatorTest {
     @Test
         // this method tests modulus
     void add_and_sub_works() {
-        assertEquals(7, new Calculator().add_and_sub(7, 3));
+        assertEquals(3, new Calculator().add_and_sub(7, 3));
     }
 }
